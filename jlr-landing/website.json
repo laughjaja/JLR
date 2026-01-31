@@ -1,0 +1,165 @@
+{
+  "site": {
+    "name": "JLR PNG Builders Ltd",
+    "tagline": "Redefining the Standards of the Papua New Guinea Built Environment",
+    "domain": "jlrpngbuilders.com",
+    "version": "1.1.0",
+    "established": "2022",
+    "location": "Lae, Morobe Province"
+  },
+  "brand": {
+    "colors": {
+      "primary": "#1a365d",
+      "primaryDark": "#0f2440",
+      "accent": "#d4a853",
+      "accentLight": "#e8c97a",
+      "white": "#ffffff",
+      "offWhite": "#f8f6f3",
+      "darkText": "#1a1a1a",
+      "lightText": "#6b7280"
+    },
+    "typography": {
+      "headingFont": "Outfit",
+      "bodyFont": "Inter"
+    }
+  },
+  "content": {
+    "hero": {
+      "headline": "Building the Future of <span>Papua New Guinea</span>",
+      "subheadline": "Bridging the gap between traditional craftsmanship and contemporary efficiency. Expert project management and uncompromising quality from the heart of Lae.",
+      "primaryCTA": {
+        "text": "Start a Partnership",
+        "link": "booking.html"
+      },
+      "secondaryCTA": {
+        "text": "View Our Portfolio",
+        "link": "#projects"
+      }
+    },
+    "about": {
+      "sectionTitle": "About JLR PNG Builders",
+      "headline": "Homegrown Excellence, International Standards",
+      "description": "Established in 2022 in the industrial heart of Lae, we are a modern firm born from a deep understanding of Morobe Province's unique landscape. We understand the logistical and environmental demands of the region, ensuring every project is built to last.",
+      "director": {
+        "name": "Jerry Maralit",
+        "title": "Director",
+        "bio": "With over 19 years of hands-on experience in PNG's construction and engineering sector, Mr. Maralit brings a wealth of local expertise and strategic vision. He has a proven track record of delivering projects under demanding conditions across the Momase and Highlands regions."
+      },
+      "stats": [
+        {
+          "value": "19+",
+          "label": "Years Experience"
+        },
+        {
+          "value": "13+",
+          "label": "Staff Houses Renovated"
+        },
+        {
+          "value": "100%",
+          "label": "HSE Compliance"
+        },
+        {
+          "value": "2022",
+          "label": "Year Founded"
+        }
+      ]
+    },
+    "team": {
+      "headline": "Meet Our Leadership",
+      "members": [
+        {
+          "name": "John Well Pasquin",
+          "role": "Operations / Construction Manager",
+          "description": "Ensures projects are delivered on time, within technical scope and budget."
+        },
+        {
+          "name": "Noli Relata Gonzales",
+          "role": "Site Technical Supervisor",
+          "description": "Ensures tradespeople execute work correctly based on specifications."
+        },
+        {
+          "name": "James Lala Afaisa",
+          "role": "Lead Foreman",
+          "description": "Senior supervisor upholding the highest Health, Safety, and Environmental standards."
+        }
+      ]
+    },
+    "services": [
+      {
+        "title": "Building & Civil Construction",
+        "items": [
+          "Commercial Developments",
+          "Industrial Warehouses",
+          "High-Quality Housing",
+          "Civil Infrastructure",
+          "Earthworks"
+        ]
+      },
+      {
+        "title": "Project Management",
+        "items": [
+          "End-to-End Oversight",
+          "Inception to Completion",
+          "Budget Adherence",
+          "Timeline Management",
+          "Quality Specifications"
+        ]
+      },
+      {
+        "title": "Technical Services",
+        "items": [
+          "Architectural & Structural Design",
+          "Electrical & Plumbing Drafting",
+          "Structural Steel Fabrication",
+          "Waterproofing",
+          "Testing & Commissioning"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "title": "Lae Wellness Medical Arts",
+        "category": "Medical & Hospitality",
+        "description": "Full construction from site development to finishes, including the popular Lae Wellness Cafe.",
+        "image": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=800"
+      },
+      {
+        "title": "Warrior Tanks Development",
+        "category": "Industrial",
+        "description": "Major site development covering slab concreting, drainage, and metal fabrication. Completing Feb 2026.",
+        "image": "https://images.unsplash.com/photo-1541888946425-d81bb19480c5?w=800"
+      },
+      {
+        "title": "Bridgestone Staff Housing",
+        "category": "Renovations",
+        "description": "On-going full renovation of 13 company houses, including structural improvements and re-roofing.",
+        "image": "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=800"
+      },
+      {
+        "title": "Kendo Ltd Warehouse",
+        "category": "Commercial",
+        "description": "25m x 18m storage facility in Chinatown featuring steel erection and complex drainage.",
+        "image": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=800"
+      }
+    ],
+    "values": [
+      {
+        "title": "Integrity & Transparency",
+        "text": "Honest communication and clear itemized accountability from site survey to handover."
+      },
+      {
+        "title": "Quality & Safety",
+        "text": "Strict adherence to HSE protocols and technical standards tailored for PNG's seismic challenges."
+      },
+      {
+        "title": "Local Empowerment",
+        "text": "Investing in local talent and supporting the growth of Papua New Guinea."
+      }
+    ],
+    "contact": {
+      "phone": "+675 7002 9811",
+      "email": "jlr.pngbuilders@gmail.com",
+      "address": "Lae, Morobe Province, Papua New Guinea"
+    }
+  }
+}

@@ -1,0 +1,420 @@
+{
+  "schema_version": "1.0.0",
+  "generated_utc": "2026-01-31T19:25:14Z",
+  "project": {
+    "name": "JLR PNG Builders Ltd Website",
+    "client": "JLR PNG Builders Ltd",
+    "primary_audience": [
+      "government procurement and contractors",
+      "industrial commercial institutional (ICI) buyers",
+      "corporate clients",
+      "private developers"
+    ],
+    "primary_goal": "lead_generation_and_investor_confidence",
+    "location_focus": {
+      "city": "Lae",
+      "province": "Morobe Province",
+      "country": "Papua New Guinea"
+    }
+  },
+  "inputs": {
+    "pdf_company_profile": {
+      "path": "/mnt/data/Company Profile JLR PNG Builders LTD.pdf",
+      "note": "Single source of truth for company claims, capabilities, and project statements."
+    },
+    "brand_banner_image": {
+      "path": "/mnt/data/IMG_1084.jpeg",
+      "note": "Banner supplied by user for header and brand references."
+    }
+  },
+  "non_negotiables": {
+    "truth_lock": [
+      "Do not invent company history, scope, credentials, clients, certifications, metrics, or claims not present in the PDF.",
+      "All claims must be traceable to the PDF content blocks in this JSON.",
+      "Testimonials page may exist, but do not add quotes unless supplied by client in writing.",
+      "Blog page may exist, but do not publish posts unless supplied or approved."
+    ],
+    "tone": [
+      "procurement_friendly",
+      "direct",
+      "clear",
+      "no_hype"
+    ],
+    "copy_rules": [
+      "Avoid en dash and em dash characters.",
+      "Prefer short sentences and bullet lists.",
+      "Use active voice where possible."
+    ]
+  },
+  "antigravity_instructions": {
+    "goal": "Generate a complete website blueprint, IA, UX flows, SEO plan, and implementation tasks. Output: build-ready spec and files.",
+    "agent_roles": [
+      {
+        "role": "Architect",
+        "responsibilities": [
+          "Create sitemap, page intents, component system, and navigation.",
+          "Define all forms, tool logic, and integration points."
+        ]
+      },
+      {
+        "role": "Content Extractor",
+        "responsibilities": [
+          "Use ONLY content blocks in this JSON marked source_text for any claim or statement.",
+          "Where needed, surface the source_text verbatim and optionally propose corrected web_copy as draft."
+        ]
+      },
+      {
+        "role": "UX Designer",
+        "responsibilities": [
+          "Design wireframes and component rules for desktop and mobile.",
+          "Ensure procurement user journey is frictionless."
+        ]
+      },
+      {
+        "role": "SEO Specialist",
+        "responsibilities": [
+          "Create metadata, schema plan, internal link plan, and image SEO requirements."
+        ]
+      },
+      {
+        "role": "Implementation Lead",
+        "responsibilities": [
+          "Choose a low code stack, define integrations, and provide acceptance tests."
+        ]
+      }
+    ],
+    "execution_steps": [
+      "Read this JSON. Treat content_blocks as ground truth for copy and claims.",
+      "Build sitemap and page specs from site_blueprint.",
+      "Generate wireframes (text based) from ux_blueprint.",
+      "Generate SEO artifacts from seo_blueprint.",
+      "Generate implementation plan and tasks from implementation_blueprint.",
+      "If any information is missing, create placeholders and mark them needs_client_input instead of inventing."
+    ],
+    "deliverables_required": [
+      "Sitemap",
+      "Page by page specification",
+      "Component library list",
+      "Forms and tool logic spec",
+      "Image enhancement workflow",
+      "SEO metadata for each page",
+      "Schema plan",
+      "Tracking plan",
+      "Implementation task list with acceptance criteria"
+    ]
+  },
+  "content_blocks": {
+    "company_profile_header": {
+      "source_text": "COMPANY PROFILE JLR PNG BUILDERS LTD +675 70029811 jlr.pngbuilders@gmail.com Lae, Morobe Province",
+      "page": 1
+    },
+    "about_us": {
+      "source_text": "Established in 2022, our company was founded in the industrial heart of Lae, Papua New Guinea, with a clear vision: to redefine the standards of the local built environment. As a modern firm born from a deep understanding of the Morobe Province’s unique landscape, we bridge the gap between traditional craftsmanship and contemporary efficiency. We pride ourselves on being a homegrown entity that understands the logistical and environmental demands of the region, ensuring that every project we undertake is built to last and serves the community effectively.\n\nOur core philosophy centers on the dual pillars of expert project management and uncomprimising quality. We recognize that in a growing city like lae, timely delivery and budget adherence are just as critical as the structural integrity aof the build. We provide comprehensive construction solutions that transform blueprints into reality. Whether navigating urban developments within the city or infrastructure needs across the province,we are committed to delivering excellence that drives progress for our clients and the nation.",
+      "page": 2,
+      "editorial_optional_web_copy": "Established in 2022, JLR PNG Builders Ltd was founded in the industrial heart of Lae, Papua New Guinea, with a clear vision to redefine the standards of the local built environment. As a modern firm shaped by a deep understanding of Morobe Province’s landscape, we bridge traditional craftsmanship with contemporary efficiency. We are a homegrown team that understands the logistical and environmental demands of the region, ensuring every project is built to last and serves the community.\n\nOur philosophy centers on two pillars: expert project management and uncompromising quality. In a growing city like Lae, timely delivery and budget adherence are as critical as structural integrity. We provide comprehensive construction solutions that transform blueprints into reality, from urban developments within the city to infrastructure needs across the province.",
+      "use_rule": "Default to source_text unless the client approves editorial corrections."
+    },
+    "directors_background": {
+      "source_text": "“Our goal at JLR PNG Builders Ltd. is to provide a higher standard of reliablity for the people of Lae and Papua New Guinea. Having worked across this country for many years, I have recognized a need for a construction partner that combines technical precision with a deep respect for local timelines and budgets. We don’t just build today; we build for the future of Papua New Guinea.”\n\nDirector’s Background\nJerry Maralit\nWtih over 19 years of hands-on experience in Papua New Guinea construction and engineering sector, Mr. Jerry Maralit brings a wealth of local expertise and strategic vision to JLR PNG Builders Ltd.\n\nNavigating the unique logistical challenges of the Momase and Highlands regions, He has proven track record of delivering projects under demanding conditions. Before establishing roles where they oversaw significant infrastructure developments, ranging from industrial warehouses in Lae to remote community projects.",
+      "page": 3
+    },
+    "team": {
+      "source_text": "Meet Our Team\nOperations Manager/ Construction Manager\nJohn Well Pasquin\nJohn ensures projects are delivered on time, wihtin the specified technical scope and budget. Managing workforce to ensure effiency and productivity.\n\nSite Technical Supervisor\nNoli Relata Gonzales\nNoli is our technical supervisor ensuring our tradesperson executes all work correctly, based on specificiations and quality work.\n\nLead Foreman\nJames Lala Afaisa\nJames is a senior and experienced foreman ensuring efficient execution of projects on site and upholding to highest standards of Health, Safety and Environmental Standards.\n\nOur team are carefully selected and tested on each chosed field. Also since working with us they were encouraged to be multiskilled to catch up with the demands in the construction industry.",
+      "pages": [
+        4,
+        5
+      ]
+    },
+    "services": {
+      "source_text": "Our Services\n1.Building & Civil Construction\nCommercial developments and industrial warehouses tailored for Lae’s industrial zones, high-quality housing solutions, renovations and essential civil infrastructure and earthworks.\n\n2.Project Management\nComprehensive oversight from inception to completion, ensuring projects are delivered on time, within budget and delivering projects on specifications.\n\n3.Technical Services\nTechnical expertise including design and drafting from Architectural, Structural, Electrical and Plumbing. Specialized technical expertise including structural steel, waterproofing, testing and commisioning to quality assurance and control.",
+      "page": 6
+    },
+    "projects_intro": {
+      "source_text": "Our Projects\nBema Church\nJLR PNG Builders Ltd. has quickly established a reputation for excellence in the Morobe Province. Our portfolio reflects our ability to deliver technical precision in Lae’s unique industrial and tropical environment.",
+      "page": 7
+    },
+    "featured_projects": {
+      "source_text": "Featured Projects\nIndustrial Warhouse\nThis is a construction of 25mx18m storage warehouse in Chinatown. Our scope covers site development, steel errection, drainage system, plumbing works and electrical works.\n\nKendo Ltd. Warehouse\nThis is a site development project for warrior industries. Our scope covers slab concreting, drainage system, fencing and metal fabrication works. This project is expected to complete by February of 2026.\n\nWarrior Tanks Concreting",
+      "page": 8
+    },
+    "featured_projects_2": {
+      "source_text": "Featured Projects\nResidential Houses Renovation\nThis project started since 2024 and our team has renovated 13 houses for the company and is still on-going unto date. This is to give the company’s staff comfortable living spaces and also aims to extend the life of these houses.\n\nBridgestone Tyres Ltd.\nWe are doing full renovation for these houses, structural improvement, re-roofing, painting, joinery for cupboards and cabinets, painting, tiling works, metal fabrication for stairs and security doors and windows.",
+      "page": 9
+    },
+    "featured_projects_3": {
+      "source_text": "Featured Projects\nCracker Popline Facility Project\nThis is a construction of a cracker popline facility inside the Lae Biscuit prduction warehouse.\n\nLae Biscuit Co.\nGenset House for the Cracker Popline Facility\nFabrication of steel frame - columns, walls, roofing and accordion sliding doors.",
+      "page": 10
+    },
+    "featured_projects_4": {
+      "source_text": "Featured Projects\nLae Wellness Medical Arts\nConstruction of Lae Wellness Medical Arts. Our scope covers from site development, foundation, structural frame fabrication, errection, plumbing works, electrical works, joinery for furniture and finishes.\n\nLae Wellness Cafe\nConstruction of a small cafe to cater the increasing clients of Lae Wellness Medical Center. From inception to construction the team has built this cafe. If you have time, you can drop by this cafe for a coffee and bread.",
+      "page": 11
+    },
+    "values": {
+      "source_text": "At JLR PNG Builders Ltd., our operations are anchored by a steadfast commitment to Integrity and Transparency. We believe that in the Papua New Guinea construction industry, trust is the most important foundation we build. This means providing our clients with honest communication, realistic timelines and clear itemized accountability from initial site survey to the final handover.\n\nWe are driven by a culture of Quality Craftmanship and Safety. Recognizeing the unique environmental and seismic challenges of the Morobe Province, we never compromise on technical standards. We ensure that every project - whether minor technical service or a major building develipment - is executed tith precision and adheres to the strictest Health, Safety and Environment (HSE) protocols to protect our workforce and our clients’ investments.\n\nFuthermore, we are committed to Local Empowerment and Reliability. We prioritize the growth of our community by investing in local talent and supporting Papua New Guinea.",
+      "page": 12
+    },
+    "cta": {
+      "source_text": "Let’s Work Together\n+675 7002 9811\njlr.pngbuilders@gmail.com\nJLR PNG Builders\nAt JLR PNG Builders, we are ready to turn your vision into reality. Whether you are planning a large-scale industrial build in Lae, looking for expert project management for a commercial development, or require specialized technical service, out team is equipped to deliver. We believe that the best projects start with a solid partnership. We invite you to reach our to us to discuss your upcoming requirements. Let’s build the future of Papua New Guinea together.",
+      "page": 13
+    }
+  },
+  "site_blueprint": {
+    "sitemap": [
+      {
+        "slug": "/",
+        "title": "Home",
+        "intent": "credibility_and_conversion"
+      },
+      {
+        "slug": "/who-we-are",
+        "title": "Who We Are",
+        "intent": "trust_and_identity"
+      },
+      {
+        "slug": "/services",
+        "title": "Our Services",
+        "intent": "capability_validation"
+      },
+      {
+        "slug": "/projects",
+        "title": "Projects",
+        "intent": "proof_and_relevance"
+      },
+      {
+        "slug": "/estimator",
+        "title": "Estimator",
+        "intent": "lead_capture_with_value"
+      },
+      {
+        "slug": "/blog",
+        "title": "Blog",
+        "intent": "seo_growth_placeholder"
+      },
+      {
+        "slug": "/testimonials",
+        "title": "Testimonials",
+        "intent": "social_proof_placeholder"
+      },
+      {
+        "slug": "/contact",
+        "title": "Contact and Booking",
+        "intent": "conversion"
+      }
+    ],
+    "navigation": {
+      "primary": [
+        "Home",
+        "Who We Are",
+        "Our Services",
+        "Projects",
+        "Estimator",
+        "Contact and Booking"
+      ],
+      "secondary": [
+        "Blog",
+        "Testimonials"
+      ],
+      "utility": [
+        "Download Company Profile PDF"
+      ]
+    }
+  },
+  "ux_blueprint": {
+    "global_components": [
+      "header_with_primary_cta",
+      "footer_with_contact_block",
+      "sticky_mobile_cta_call_or_booking",
+      "project_card",
+      "project_filter_bar",
+      "lead_form",
+      "booking_embed_or_form",
+      "estimator_form_and_results",
+      "chat_widget_entrypoint"
+    ],
+    "conversion_rules": [
+      "Every page must include a primary CTA that routes to either Estimator or Booking.",
+      "Projects page must include filter and search.",
+      "Project detail pages must include CTA: Request similar build and Booking."
+    ],
+    "forms": {
+      "lead_capture_minimum_fields": [
+        "full_name",
+        "email",
+        "phone",
+        "client_type",
+        "project_type",
+        "location"
+      ],
+      "procurement_stage_field": [
+        "planning",
+        "budgeting",
+        "tendering",
+        "awarded",
+        "other"
+      ],
+      "file_upload_optional": true,
+      "anti_spam": [
+        "honeypot",
+        "rate_limit",
+        "captcha_optional"
+      ]
+    }
+  },
+  "tools_blueprint": {
+    "chat": {
+      "enabled": true,
+      "type": "procurement_assistant",
+      "recommended_providers": [
+        "Crisp",
+        "Tawk.to"
+      ],
+      "script": [
+        "Ask client type: government, corporate, developer",
+        "Ask project type and location",
+        "Ask if they have tender documents",
+        "Offer two actions: Book consultation or Request tender package"
+      ]
+    },
+    "booking": {
+      "enabled": true,
+      "modes": [
+        "embedded_calendar",
+        "3_step_booking_form"
+      ],
+      "recommended_providers": [
+        "Calendly",
+        "TidyCal"
+      ],
+      "fallback": "If calendar is not used, collect preferred date and time and confirm by email."
+    },
+    "estimator": {
+      "enabled": true,
+      "mvp_inputs": [
+        {
+          "key": "project_type",
+          "type": "select"
+        },
+        {
+          "key": "location",
+          "type": "select"
+        },
+        {
+          "key": "size_range",
+          "type": "select"
+        },
+        {
+          "key": "timeline",
+          "type": "select",
+          "optional": true
+        }
+      ],
+      "output": {
+        "budget_range": "placeholder_until_rates_defined",
+        "note": "Do not claim pricing. Ask client for cost bands if they want a budget output."
+      },
+      "lead_gate": true
+    }
+  },
+  "seo_blueprint": {
+    "keywords_seed": [
+      "construction company lae",
+      "commercial construction lae",
+      "industrial warehouse construction lae",
+      "project management construction papua new guinea",
+      "technical services construction png",
+      "morobe province builders"
+    ],
+    "metadata_rules": [
+      "Title tags: 50 to 60 chars, include Lae or PNG where relevant.",
+      "Meta descriptions: 140 to 160 chars, include primary CTA.",
+      "Use one H1 per page.",
+      "Use internal links from Services and Projects to Contact and Estimator."
+    ],
+    "schema": [
+      "Organization",
+      "LocalBusiness",
+      "Service",
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList",
+      "Article (for blog posts)"
+    ],
+    "image_seo": {
+      "format": [
+        "webp"
+      ],
+      "max_long_edge_px": 2048,
+      "lazy_load": true,
+      "alt_text_template": "{project_type} project in Lae, Morobe Province, Papua New Guinea"
+    }
+  },
+  "image_enhancement_pipeline": {
+    "folders": [
+      "RAW",
+      "SELECTS",
+      "EDITED_MASTER",
+      "WEB_2048",
+      "WEB_THUMB"
+    ],
+    "naming": "YYYY_ProjectName_Lae_XX",
+    "steps": [
+      "Select sharp images first. Avoid motion blur.",
+      "Correct geometry: straighten verticals and horizon.",
+      "Global color and exposure correction.",
+      "Noise reduction for low light images.",
+      "Detail enhancement: mild sharpening and clarity.",
+      "Optional AI upscale 2x or 4x if resolution is low.",
+      "Export WEB_2048: 2048px long edge, webp.",
+      "Export WEB_THUMB: 600px long edge, webp."
+    ],
+    "guardrails": [
+      "Do not edit images in a way that changes the reality of the work.",
+      "Do not add or remove structural elements.",
+      "Do not fabricate progress stages."
+    ]
+  },
+  "implementation_blueprint": {
+    "preferred_stack": [
+      {
+        "option": "WordPress",
+        "why": "Fast build, good SEO, many form and gallery plugins."
+      },
+      {
+        "option": "Webflow",
+        "why": "Clean responsive UI, strong design control, simple CMS."
+      }
+    ],
+    "integrations": [
+      {
+        "name": "Analytics",
+        "tools": [
+          "GA4",
+          "Google Search Console"
+        ]
+      },
+      {
+        "name": "CRM",
+        "tools": [
+          "Notion database",
+          "Airtable optional"
+        ]
+      },
+      {
+        "name": "Automation",
+        "tools": [
+          "Make",
+          "Zapier"
+        ],
+        "note": "API-less where possible."
+      }
+    ],
+    "acceptance_tests": [
+      "Mobile passes Lighthouse performance and accessibility checks above 85.",
+      "All pages have titles, meta descriptions, and one H1.",
+      "Projects gallery loads fast and supports filters.",
+      "Contact form routes to email and CRM.",
+      "Booking flow works end to end.",
+      "Estimator captures leads before showing results."
+    ]
+  }
+}
