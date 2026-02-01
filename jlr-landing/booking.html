@@ -127,7 +127,9 @@
 <body>
     <nav class="navbar scrolled">
         <div class="nav-container">
-            <a href="index.html" class="logo"><span class="logo-text">JLR<span> Builders</span></span></a>
+            <a href="index.html" class="logo">
+                <img src="assets/logo_high_res.png" alt="JLR PNG Builders Limited" class="logo-img">
+            </a>
             <ul class="nav-links">
                 <li><a href="index.html#about">About</a></li>
                 <li><a href="index.html#services">Services</a></li>
@@ -135,6 +137,11 @@
                 <li><a href="index.html#team">Team</a></li>
             </ul>
             <a href="booking.html" class="nav-cta">Work With Us</a>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </div>
     </nav>
 
@@ -153,7 +160,7 @@
                     <p style="color: var(--light-text); margin-bottom: 40px;">Whether you're planning an industrial
                         build in Lae or a remote infrastructure project, our team is equipped to deliver.</p>
 
-                    <div class="contact-item">
+                    <a href="tel:+67570029811" class="contact-item">
                         <div class="contact-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                 stroke-width="2">
                                 <path
@@ -163,9 +170,9 @@
                             <h4>Phone</h4>
                             <p>+675 7002 9811</p>
                         </div>
-                    </div>
+                    </a>
 
-                    <div class="contact-item">
+                    <a href="mailto:jlr.pngbuilders@gmail.com" class="contact-item">
                         <div class="contact-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                 stroke-width="2">
                                 <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
@@ -175,17 +182,16 @@
                             <h4>Email</h4>
                             <p>jlr.pngbuilders@gmail.com</p>
                         </div>
-                    </div>
+                    </a>
 
                     <div class="contact-item">
                         <div class="contact-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                 stroke-width="2">
-                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
-                                <circle cx="12" cy="10" r="3" />
+                                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
                             </svg></div>
                         <div>
-                            <h4>Location</h4>
-                            <p>Lae, Morobe Province, PNG</p>
+                            <h4>Facebook</h4>
+                            <p>JLR PNG Builders</p>
                         </div>
                     </div>
                 </div>
@@ -215,11 +221,58 @@
 
     <footer class="footer">
         <div class="container">
-            <div class="footer-bottom">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <img src="assets/logo_high_res.png" alt="JLR PNG Builders Limited" class="logo-img">
+                    </div>
+                    <p>Established 2022 in Morobe Province. Redefining the local built environment.</p>
+                    <div class="social-links">
+                        <a href="https://facebook.com" class="social-link" title="Follow us on Facebook">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="tel:+67570029811" style="color: rgba(255,255,255,0.6)">+675 7002 9811</a></li>
+                        <li><a href="mailto:jlr.pngbuilders@gmail.com"
+                                style="color: rgba(255,255,255,0.6)">jlr.pngbuilders@gmail.com</a></li>
+                        <li>Lae, Morobe Province</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
                 <p>© 2026 JLR PNG Builders Ltd. All rights reserved.</p>
             </div>
         </div>
     </footer>
+
+    <script>
+        // Mobile Menu Toggle
+        const menuToggle = document.querySelector('.menu-toggle');
+        const navLinks = document.querySelector('.nav-links');
+
+        menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('active');
+            navLinks.classList.toggle('active');
+            document.body.style.overflow = navLinks.classList.contains('active') ? 'hidden' : '';
+        });
+
+        // Close menu when clicking links
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                menuToggle.classList.remove('active');
+                navLinks.classList.remove('active');
+                document.body.style.overflow = '';
+            });
+        });
+    </script>
 </body>
 
 </html>

@@ -43,12 +43,12 @@
       "director": {
         "name": "Jerry Maralit",
         "title": "Director",
-        "bio": "With over 19 years of hands-on experience in PNG's construction and engineering sector, Mr. Maralit brings a wealth of local expertise and strategic vision. He has a proven track record of delivering projects under demanding conditions across the Momase and Highlands regions."
+        "bio": "With 20 years of hands-on experience in PNG's construction and engineering sector, Mr. Maralit brings a wealth of local expertise and strategic vision. He has a proven track record of delivering projects under demanding conditions across the Momase and Highlands regions."
       },
       "stats": [
         {
-          "value": "19+",
-          "label": "Years Experience"
+          "value": "20",
+          "label": "Years of Trusted Experience"
         },
         {
           "value": "13+",
@@ -127,7 +127,7 @@
         "title": "Warrior Tanks Development",
         "category": "Industrial",
         "description": "Major site development covering slab concreting, drainage, and metal fabrication. Completing Feb 2026.",
-        "image": "https://images.unsplash.com/photo-1541888946425-d81bb19480c5?w=800"
+        "image": "assets/warrior_tanks.png"
       },
       {
         "title": "Bridgestone Staff Housing",
